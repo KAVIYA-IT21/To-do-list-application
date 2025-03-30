@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+    
+</head>
+<body>
+    <div id="wrapper">  
+        <div id="doneBanner"></div>
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0"></script>
+
+        <div id="header">
+           
+            <h1>Hey Todo&#128400;</h1>
+            <div id="progressContainer">
+                <div id="progress"></div>
+            </div>
+        </div>
+
+        
+        <div class="input-container">
+         
+            <input type="date" id="dueDate" required>
+            <input type="text" id="input" placeholder="Enter your task">
+            
+            <button id="add">Add</button>
+            
+            
+        </div>
+
+    <div id="todoList">
+        <!-- Add this inside the <body> -->
+<audio id="taskCompletedSound">
+    <source src="https://www.fesliyanstudios.com/play-mp3/5455" type="audio/mpeg">
+</audio>
+
+    </div>
+    </div>
+    
+       
+   
+<script src="app.js"></script>
+</body>   
+</html>
